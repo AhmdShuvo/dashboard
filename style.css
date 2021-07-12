@@ -167,3 +167,17 @@ article{
         flex-direction: column;
     }
 }
+@media only screen and (min-width:688px) and    (max-width:992px) {
+    .container{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(2, 1fr);
+      
+    }
+    .player, .blogs, .blog, .courses{
+        flex-direction: column;
+    }
+}
